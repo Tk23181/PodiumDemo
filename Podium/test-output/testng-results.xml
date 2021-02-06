@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-04T22:40:45 GMT" name="Default suite" finished-at="2021-02-04T22:41:31 GMT" duration-ms="45885">
+  <suite started-at="2021-02-06T15:45:30 GMT" name="Default suite" finished-at="2021-02-06T15:46:09 GMT" duration-ms="38861">
     <groups>
     </groups>
-    <test started-at="2021-02-04T22:40:45 GMT" name="Default test" finished-at="2021-02-04T22:41:31 GMT" duration-ms="45885">
+    <test started-at="2021-02-06T15:45:30 GMT" name="Default test" finished-at="2021-02-06T15:46:09 GMT" duration-ms="38861">
       <class name="Test.Demo">
-        <test-method is-config="true" signature="initialization()[pri:0, instance:Test.Demo@1b7cc17c]" started-at="2021-02-04T22:40:44 GMT" name="initialization" finished-at="2021-02-04T22:40:45 GMT" duration-ms="665" status="PASS">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:Test.Demo@223191a6]" started-at="2021-02-06T15:45:30 GMT" name="initialization" finished-at="2021-02-06T15:45:30 GMT" duration-ms="712" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method is-config="true" signature="Fn_LaunchBrowser(java.lang.String)[pri:0, instance:Test.Demo@1b7cc17c]" started-at="2021-02-04T22:40:45 GMT" name="Fn_LaunchBrowser" finished-at="2021-02-04T22:41:01 GMT" duration-ms="16286" status="PASS">
+        <test-method is-config="true" signature="Fn_LaunchBrowser(java.lang.String)[pri:0, instance:Test.Demo@223191a6]" started-at="2021-02-06T15:45:30 GMT" name="Fn_LaunchBrowser" finished-at="2021-02-06T15:45:45 GMT" duration-ms="14373" status="PASS">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -20,11 +20,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Fn_LaunchBrowser -->
-        <test-method signature="demo1()[pri:0, instance:Test.Demo@1b7cc17c]" started-at="2021-02-04T22:41:01 GMT" name="demo1" finished-at="2021-02-04T22:41:28 GMT" duration-ms="26511" status="PASS">
+        <test-method signature="demo1()[pri:0, instance:Test.Demo@223191a6]" started-at="2021-02-06T15:45:45 GMT" name="demo1" finished-at="2021-02-06T15:46:08 GMT" duration-ms="23249" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo1 -->
-        <test-method is-config="true" signature="Fn_CloseBrowser()[pri:0, instance:Test.Demo@1b7cc17c]" started-at="2021-02-04T22:41:28 GMT" name="Fn_CloseBrowser" finished-at="2021-02-04T22:41:31 GMT" duration-ms="2990" status="PASS">
+        <test-method is-config="true" signature="Fn_CloseBrowser()[pri:0, instance:Test.Demo@223191a6]" started-at="2021-02-06T15:46:08 GMT" name="Fn_CloseBrowser" finished-at="2021-02-06T15:46:09 GMT" duration-ms="1100" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Fn_CloseBrowser -->

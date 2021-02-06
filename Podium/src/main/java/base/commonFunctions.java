@@ -15,12 +15,6 @@ import org.openqa.selenium.interactions.Actions;
 public class commonFunctions extends extentReporting
 {
 
-	public int generateRandomNumber()
-	{	    
-		Random objGenerator = new Random();
-		int randomNumber = 100000 + objGenerator.nextInt(999999);
-		return randomNumber;
-	} 
 
 	public void Fn_ElementExist_Byid(String Object_Property)
 	{
@@ -29,28 +23,7 @@ public class commonFunctions extends extentReporting
 
 	}
 
-	public String CurrentDate() 
-	{
-		String currentDate = new SimpleDateFormat("MMddyy").format(new Date());
-		return currentDate;
-
-	} 
-
-	public void Fn_NavigatetoWindow(String windowno)
-	{
-		Actions action = new Actions(getDriver());
-
-		action.keyDown(Keys.LEFT_CONTROL).sendKeys("r").build().perform();
-
-		getDriver().switchTo().frame(0);
-
-		JavascriptExecutor js = (JavascriptExecutor)getDriver();
-
-		js.executeScript("document.getElementById('cmdText').value=windowno;");
-
-		js.executeScript("document.getElementById('runTaskButton').click();");
-	}
-
+	
 	public void Fn_Checked_ID(String Locator_Val, String stepdescription ) throws Exception
 	{	
 		Thread.sleep(1000);
@@ -65,9 +38,8 @@ public class commonFunctions extends extentReporting
 		{
 			System.out.println("Object Not available to Click : " + stepdescription + e.getMessage());
 			extentReporting.executeReport(getDriver(),stepdescription, "FAIL");
-			//C5.NavigateToHomeScreen();
 			
-			//dispose();
+			
 		}
 	}
 }

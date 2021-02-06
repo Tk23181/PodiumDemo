@@ -31,13 +31,7 @@ public class genericMethod extends baseclass {
 		}
 	}
 
-	/*
-	 * public static ExtentTest createTest(String testName) { // TODO Auto-generated
-	 * method stub return createTest(testName); }
-	 * 
-	 * public static ExtentTest getTest() { // TODO Auto-generated method stub
-	 * return null; }
-	 */
+	
 		
 
 }

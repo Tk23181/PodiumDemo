@@ -30,9 +30,7 @@ public class testListener
 	{ 
 
 		try {
-			//baseclass.Fn_addlog(result.getMethod().getMethodName() + " Passed!"+baseclass.htmlBuilder.append("</br>"));
-			//baseclass.htmlBuilder.setLength(0);
-			extentReporting.executeReport(baseclass.remotedriver, result.getMethod().getMethodName() + " Passed!", "PASS");
+				extentReporting.executeReport(baseclass.remotedriver, result.getMethod().getMethodName() + " Passed!", "PASS");
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -41,12 +39,10 @@ public class testListener
 
 	public synchronized void onTestFailure(ITestResult result) 
 	{
-		//System.out.println((result.getMethod().getMethodName() + " failed!"));
-		// test.get().fail(result.getThrowable());
+		System.out.println((result.getMethod().getMethodName() + " failed!"));
+		test.get().fail(result.getThrowable());
 		try
 		{
-			//baseclass.Fn_addlog(result.getMethod().getMethodName() + " failed!"+baseclass.htmlBuilder.append("</br>"));
-			//baseclass.htmlBuilder.setLength(0);
 			extentReporting.executeReport(baseclass.remotedriver, result.getMethod().getMethodName() + " failed!", "FAIL");
 		}
 		catch (Exception e) 

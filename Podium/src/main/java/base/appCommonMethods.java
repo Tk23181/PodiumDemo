@@ -20,9 +20,6 @@ import java.text.SimpleDateFormat;
 public class appCommonMethods extends commonFunctions 
 
 {
-	/*public static String CopyToItemnumber="";	
-	public static String Added_Item_number_xpath="";
-	 */
 	public void Fn_IsDisplayed_By_Xpath(String Locator_Val, String stepdescription) throws Exception {
 		Thread.sleep(1000);
 		try {

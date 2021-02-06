@@ -162,26 +162,7 @@ public class baseclass
 	extentReporting.close();
 	getDriver().quit();
 }
-	/*
-	 * @AfterMethod public void Fn_CloseBrowser() throws Exception {
-	 * htmlBuilder.setLength(0);
-	 * Fn_addlog("---------End--------"+htmlBuilder.append("</br>"));
-	 * htmlBuilder.setLength(0);
-	 * Fn_addlog("************************************"+htmlBuilder.append("</br>")+
-	 * ""+htmlBuilder.append("</br>"));
-	 * 
-	 * if (datamap!=null) { datamap.clear(); getDriver().quit(); } else {
-	 * getDriver().quit(); } }
-	 */
-	/*
-	 * public static void Fn_addlog(String desc) throws Exception { try {
-	 * Html=htmlBuilder.toString(); layoutHandler.setFormatter(formatter);
-	 * Add_Log.info(desc); htmlBuilder.setLength(0);
-	 * 
-	 * }catch(Exception e) {
-	 * 
-	 * } }
-	 */
+	
 	
 	
 }
